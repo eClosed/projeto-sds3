@@ -1,9 +1,14 @@
+import NavBar from "components/NavBar";
+
 function App() {
   return (
-    <div>
-      <h1 className="text-primary">Have a nice day!</h1>
-    </div>
-  );
+    <>
+      <NavBar />
+      <div className="container">
+        <h1 className="text-primary">Have a nice day!</h1>
+      </div>
+    </>
+        );
 }
 
-export default App;
+        export default App;
