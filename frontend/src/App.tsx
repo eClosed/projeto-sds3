@@ -10,7 +10,6 @@ function App() {
       <NavBar />
       <div className="container">
         <h1 className="text-primary py-3">Ranking de Vendas</h1>
-        Have a nice day!
 
         <div className="row px-3">
           <div className="col-sm-6">
@@ -29,6 +28,10 @@ function App() {
 
         <DataTable />
       </div>
+
+      <div className="py-5"><h5 className="text-center text-secondary">Have a nice day!</h5>
+      </div>
+
       <Footer />
     </>
   );
