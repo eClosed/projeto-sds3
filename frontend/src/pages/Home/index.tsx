@@ -17,9 +17,11 @@ function Home() {
                     </Link>
                 </div>
             </div>
+            <div className="py-5"><h5 className="text-center text-secondary">Have a nice day!</h5>
+            </div>
             <Footer />
         </>
-                );
+    );
 }
 
-                export default Home;
+export default Home;
